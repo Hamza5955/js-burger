@@ -16,14 +16,150 @@
   </head>
 
   <body>
-    <header>
-      <h1>Create your burger</h1>
-    </header>
-    <main>
-      <h2>mio nome</h2>
-      <h2>ingredienti</h2>
-      <div></div>
-    </main>
-    <script src="js/main.js"></script>
+    <div class="cont-prin h-100 d-inline-block">
+      <header>
+        <div class="title position-relative">
+          <h1 class="create-burger position-absolute">
+            <strong>Create Your Burger</strong>
+          </h1>
+          <div class="box-img position-absolute">
+            <img src="img/burger-top.png" alt="burger-top" />
+          </div>
+        </div>
+      </header>
+      <main>
+        <div class="container pt-4 pb-4">
+          <input
+            type="text"
+            name="burgerName"
+            id="burgerName"
+            placeholder="Name Your Burger"
+          />
+          <h3 class="ingr">Ingrediens</h3>
+          <div class="row pt-4 pb-4">
+            <div class="col-6 ingredients mt-1 mb-1">
+              <div class="ingredient_img d-inline-block me-2">
+                <img src="img/cheese.svg" class="" alt="cheese" />
+              </div>
+              <div class="ingredient_title d-inline-block me-4">
+                <span>Cheese</span>
+              </div>
+              <div class="ingredient_checkbox d-inline-block">
+                <input
+                  type="checkbox"
+                  name="ingredient_select"
+                  id="ingredient_cheese"
+                />
+                <label for="ingredient_cheese">Add</label>
+              </div>
+            </div>
+
+            <div class="col-6 ingredients mt-1 mb-1">
+              <div class="ingredient_img d-inline-block me-2">
+                <img src="img/tomato.svg" class="" alt="tomato" />
+              </div>
+              <div class="ingredient_title d-inline-block me-4">
+                <span>tomato</span>
+              </div>
+              <div class="ingredient_checkbox d-inline-block">
+                <input
+                  type="checkbox"
+                  name="ingredient_select"
+                  id="ingredient_tomato"
+                />
+                <label for="ingredient_tomato">Add</label>
+              </div>
+            </div>
+
+            <div class="col-6 ingredients mt-1 mb-1">
+              <div class="ingredient_img d-inline-block me-2">
+                <img src="img/fried-egg.svg" class="" alt="fried-egg" />
+              </div>
+              <div class="ingredient_title d-inline-block me-4">
+                <span>Egg</span>
+              </div>
+              <div class="ingredient_checkbox d-inline-block">
+                <input
+                  type="checkbox"
+                  name="ingredient_select"
+                  id="ingredient_egg"
+                />
+                <label for="ingredient_egg">Add</label>
+              </div>
+            </div>
+
+            <div class="col-6 ingredients mt-1 mb-1">
+              <div class="ingredient_img d-inline-block me-2">
+                <img src="img/lettuce.svg" class="" alt="lettuce" />
+              </div>
+              <div class="ingredient_title d-inline-block me-4">
+                <span>lettuce</span>
+              </div>
+              <div class="ingredient_checkbox d-inline-block">
+                <input
+                  type="checkbox"
+                  name="ingredient_select"
+                  id="ingredient_lettuce"
+                />
+                <label for="ingredient_lettuce">Add</label>
+              </div>
+            </div>
+
+            <div class="col-6 ingredients mt-1 mb-1">
+              <div class="ingredient_img d-inline-block me-2">
+                <img src="img/mustard.svg" class="" alt="mustard" />
+              </div>
+              <div class="ingredient_title d-inline-block me-4">
+                <span>mustard</span>
+              </div>
+              <div class="ingredient_checkbox d-inline-block">
+                <input
+                  type="checkbox"
+                  name="ingredient_select"
+                  id="ingredient_mustard"
+                />
+                <label for="ingredient_mustard">Add</label>
+              </div>
+            </div>
+
+            <div class="col-6 ingredients mt-1 mb-1">
+              <div class="ingredient_img d-inline-block me-2">
+                <img src="img/ketchup.svg" class="" alt="Ketchup" />
+              </div>
+              <div class="ingredient_title d-inline-block me-4">
+                <span>Ketchup</span>
+              </div>
+              <div class="ingredient_checkbox d-inline-block">
+                <input
+                  type="checkbox"
+                  name="ingredient"
+                  id="ingredient_Ketchup"
+                />
+                <label for="ingredient_Ketchup">Add</label>
+              </div>
+            </div>
+          </div>
+          <div class="discount_code">
+            <label for="couponCode">Discount Coupon</label>
+            <input
+              type="text"
+              name="couponCode"
+              id="couponCode"
+              placeholder="abc"
+            />
+            <div class="calculate">
+              <button id="btn" type="submit">
+                <strong>calculate</strong>
+              </button>
+            </div>
+          </div>
+        </div>
+        <section class="price">
+          <h2>Your price</h2>
+          <h2 id="prezzo">$ 50</h2>
+        </section>
+      </main>
+      <script src="js/main.js"></script>
+    </div>
   </body>
 </html>
