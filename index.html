@@ -46,11 +46,13 @@
               </div>
               <div class="ingredient_checkbox d-inline-block">
                 <input
+                  class="checkbox"
                   type="checkbox"
                   name="ingredient_select"
-                  id="ingredient_cheese"
+                  id="cheese"
+                  value="5"
                 />
-                <label for="ingredient_cheese">Add</label>
+                <label for="cheese">Add</label>
               </div>
             </div>
 
@@ -63,11 +65,13 @@
               </div>
               <div class="ingredient_checkbox d-inline-block">
                 <input
+                  class="checkbox"
                   type="checkbox"
                   name="ingredient_select"
-                  id="ingredient_tomato"
+                  id="tomato"
+                  value="5"
                 />
-                <label for="ingredient_tomato">Add</label>
+                <label for="tomato">Add</label>
               </div>
             </div>
 
@@ -80,11 +84,13 @@
               </div>
               <div class="ingredient_checkbox d-inline-block">
                 <input
+                  class="checkbox"
                   type="checkbox"
                   name="ingredient_select"
-                  id="ingredient_egg"
+                  id="egg"
+                  value="3"
                 />
-                <label for="ingredient_egg">Add</label>
+                <label for="egg">Add</label>
               </div>
             </div>
 
@@ -97,11 +103,13 @@
               </div>
               <div class="ingredient_checkbox d-inline-block">
                 <input
+                  class="checkbox"
                   type="checkbox"
                   name="ingredient_select"
-                  id="ingredient_lettuce"
+                  id="lettuce"
+                  value="2"
                 />
-                <label for="ingredient_lettuce">Add</label>
+                <label for="lettuce">Add</label>
               </div>
             </div>
 
@@ -114,11 +122,13 @@
               </div>
               <div class="ingredient_checkbox d-inline-block">
                 <input
+                  class="checkbox"
                   type="checkbox"
                   name="ingredient_select"
-                  id="ingredient_mustard"
+                  id="mustard"
+                  value="5"
                 />
-                <label for="ingredient_mustard">Add</label>
+                <label for="mustard">Add</label>
               </div>
             </div>
 
@@ -131,24 +141,21 @@
               </div>
               <div class="ingredient_checkbox d-inline-block">
                 <input
+                  class="checkbox"
                   type="checkbox"
                   name="ingredient"
-                  id="ingredient_Ketchup"
+                  id="Ketchup"
+                  value="3"
                 />
-                <label for="ingredient_Ketchup">Add</label>
+                <label for="Ketchup">Add</label>
               </div>
             </div>
           </div>
           <div class="discount_code">
-            <label for="couponCode">Discount Coupon</label>
-            <input
-              type="text"
-              name="couponCode"
-              id="couponCode"
-              placeholder="abc"
-            />
+            <h3 class="inline">Discount Coupon</h3>
+            <input type="text" name="coupon" id="coupon" placeholder="abc" />
             <div class="calculate">
-              <button id="btn" type="submit">
+              <button id="btn" name="calculate" type="submit">
                 <strong>calculate</strong>
               </button>
             </div>

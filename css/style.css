@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  background-color: rgb(255, 244, 226);
+  background-color: rgb(245, 230, 205) !important;
 }
 main {
   width: 100%;
@@ -16,7 +16,7 @@ main {
 }
 .cont-prin {
   width: 50vw;
-  background-color: rgb(207, 201, 201);
+  background-color: rgb(255, 255, 255);
   margin: 0 auto;
 }
 .title {
@@ -64,6 +64,9 @@ main {
   padding: 15px 30px;
   border-radius: 10px;
   font-weight: 500;
+}
+.inline {
+  display: inline;
 }
 
 .price {
